@@ -3,9 +3,13 @@ font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 .navbar.navbar-default {
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .footer{
     text-align: center;
+}
+
+.digital_orange_color {
+  color : #FF7900;
 }
