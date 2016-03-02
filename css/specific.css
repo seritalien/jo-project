@@ -1,3 +1,36 @@
+/* ================================ ==========================================
+   Colors initialization
+   ========================================================================== */
+/*// @colorOrange: #f16e00;
+// @colorOrangeDark: #cd5e00;
+// @colorDarkGrey: #777;
+// @colorDarkerGrey: #333;
+// @colorMediumLightGrey: #ddd;
+// @colorLightGrey: #eee;
+// @colorMediumGrey: #999;*/
+
+body{
+font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
 .navbar.navbar-default {
     opacity: 0.8;
 }
+/*.dropdown-menu>li>a:hover {
+  background-color: #f16e00;
+}
+
+.nav.nav-tabs {
+border-bottom: 1px solid #f16e00;
+}
+.nav.nav-tabs > li.active {
+  border-bottom: 0px solid transparent;
+}
+
+.nav.nav-tabs>li.active>a {
+  border-color: #f16e00;
+}
+
+.nav.nav-tabs > li > a {
+
+}*/
