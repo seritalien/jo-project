@@ -1,377 +1,442 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="Serafini, Boulanger">
-  <link rel="icon" href="icon/orange.ico">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Serafini, Boulanger">
+    <link rel="icon" href="icon/orange.ico">
 
-  <title>Mon Dossier d'assistance</title>
+    <title>Mon Dossier d'assistance</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-  <!-- <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/united/bootstrap.min.css" rel="stylesheet" data-mbcode_theme="true"> -->
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/united/bootstrap.min.css" rel="stylesheet" data-mbcode_theme="true"> -->
 
-  <!-- Custom styles for this template -->
-  <link href="css/normalize.css" rel="stylesheet">
-  <link href="css/justified-nav.css" rel="stylesheet">
-  <!--link href="css/orange.bootstrap.min.css" rel="stylesheet"-->
-  <!--link href="css/orange.main.less" rel="stylesheet"-->
-  <link href="css/specific.css" rel="stylesheet">
-  <!-- <link href="css/theme.less" rel="stylesheet"> -->
+    <!-- Custom styles for this template -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/justified-nav.css" rel="stylesheet">
+    <!--link href="css/orange.bootstrap.min.css" rel="stylesheet"-->
+    <!--link href="css/orange.main.less" rel="stylesheet"-->
+    <link href="css/specific.css" rel="stylesheet">
+    <!-- <link href="css/theme.less" rel="stylesheet"> -->
 
-  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <!--[endif]---->
-</head>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script> <!--[endif]---->
+  </head>
 
-<body>
-  <!-- header -->
-  <div class="container">
-    <div class="masthead">
-      <nav role="navigation" class="navbar  navbar-default ">
-        <!-- navbar-fixed-top -->
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#"><img alt="Brand" src="img/orange_logo.png"></a>
+  <body>
+    <!-- header -->
+    <div class="container">
+      <div class="masthead">
+        <nav role="navigation" class="navbar  navbar-default ">
+          <!-- navbar-fixed-top -->
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><img alt="Brand" src="img/orange_logo.png"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li>
+                  <a href="#">
+                    <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                    Acceuil<span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <li class="dropdown active">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                    Gestion Clients
+                    <span class="badge">10</span>
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="123451_tech.html">Dossier 123451</a>
+                    </li>
+                    <li>
+                      <a href="123452_tech.html">Dossier 123452</a>
+                    </li>
+                    <li>
+                      <a href="123453_tech.html">Dossier 123453</a>
+                    </li>
+                    <li>
+                      <a href="123454_tech.html">Dossier 123454</a>
+                    </li>
+                    <li>
+                      <a href="123455_tech.html">Dossier 123455</a>
+                    </li>
+                    <li>
+                      <a href="index.html">Dossier 123456</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="index.html#">
+                    <span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+                    Pratique</a>
+                </li>
+                <li>
+                  <a href="index.html#">
+                    <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
+                    Outils</a>
+                </li>
+                <li>
+                  <a href="index.html#">
+                    <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                    Messages
+                    <span class="badge">3</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="index.html#">
+                    <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                    Aide</a>
+                </li>
+
+              </ul>
+              <p class="navbar-text navbar-right">Hello
+                <a href="#" class="navbar-link">Joseph</a>
+              </p>
+            </div>
+            <!-- /.navbar-collapse -->
           </div>
+          <!-- /.container-fluid -->
+        </nav>
 
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Acceuil<span class="sr-only">(current)</span></a></li>
-              <li class="dropdown active">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                  <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Gestion Clients <span class="badge">10</span> <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="123451_tech.html">Dossier 123451</a></li>
-                  <li><a href="123452_tech.html">Dossier 123452</a></li>
-                  <li><a href="123453_tech.html">Dossier 123453</a></li>
-                  <li><a href="123454_tech.html">Dossier 123454</a></li>
-                  <li><a href="123455_tech.html">Dossier 123455</a></li>
-                  <li><a href="index.html">Dossier 123456</a></li>
-                </ul>
-              </li>
-              <li><a href="index.html#"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Pratique</a></li>
-              <li><a href="index.html#"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Outils</a></li>
-              <li><a href="index.html#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Messages <span class="badge">3</span></a></li>
-              <li><a href="index.html#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span> Aide</a></li>
-
-            </ul>
-            <p class="navbar-text navbar-right">Hello <a href="#" class="navbar-link">Joseph</a></p>
-          </div>
-          <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-      </nav>
-
-
-    </div>
-    <!-- masterhead -->
-  </div>
-  <!-- header -->
-
-  <!-- container dossier d'assistance spécifique -->
-  <div id="assitance" class="container">
-    <!-- message temporaire pour la demo maquette -->
-    <div id="message" class="">
-      <i class="fa fa-star"></i>
-      <div style="" class="alert alert-success">
-        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-        <strong>CAS N°4 Remplacement de Livebox par DREAM</strong> - Vue Client
       </div>
+      <!-- masterhead -->
     </div>
-    <!-- bare de navigation -->
-    <ol class="breadcrumb">
-      <li><a href="#">Accueil</a></li>
-      <li><a href="#">Gestion Client</a></li>
-      <li><a href="#">Henry Dupont</a></li>
-      <li class="active">N°123453</li>
-    </ol>
+    <!-- header -->
 
-    <h3 class="text-center">
-        <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>   Dossier d'assistance N°123453 crée le 29 février 2016
+    <!-- container dossier d'assistance spécifique -->
+    <div id="assitance" class="container">
+      <!-- message temporaire pour la demo maquette -->
+      <div id="message" class="">
+        <i class="fa fa-star"></i>
+        <div style="" class="alert alert-success">
+          <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+          <strong>CAS N°4 Remplacement de Livebox par DREAM</strong>
+          - Vue Client
+        </div>
+      </div>
+      <!-- bare de navigation -->
+      <ol class="breadcrumb">
+        <li>
+          <a href="#">Accueil</a>
+        </li>
+        <li>
+          <a href="#">Gestion Client</a>
+        </li>
+        <li>
+          <a href="#">Henry Dupont</a>
+        </li>
+        <li class="active">N°123453</li>
+      </ol>
+
+      <h3 class="text-center">
+        <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
+        Dossier d'assistance N°123453 crée le 29 février 2016
         <i class="fa fa-archive"></i>
         <div class="btn-group" role="group" aria-label="...">
-              <a class="btn btn-default active" href="123453_client.html" role="button"><span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span> Client</a>
-              <a class="btn btn-default" href="123453_tech.html" role="button"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Orange</a>
-          </div>
+          <a class="btn btn-default active" href="123453_client.html" role="button">
+            <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+            Client</a>
+          <a class="btn btn-default" href="123453_tech.html" role="button">
+            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+            Orange</a>
+        </div>
       </h3>
-    <br>
-    <!-- a virer, gérer le padding -->
-    <div id="row-rdv" class="row">
-      <div class="col-md-3">
-        <div class="alert alert-danger" role="alert"><a href="#" class="alert-link"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> 2 réitérations</a></div>
-        <div class="alert alert-success" role="alert"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Acquitté</div>
-      </div>
-      <div class="col-md-6">
-        <div class="well well-lg">
+      <br>
+      <!-- a virer, gérer le padding -->
+      <div id="row-rdv" class="row">
+        <div class="col-md-3">
+          <div class="alert alert-danger" role="alert">
+            <a href="#" class="alert-link">
+              <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+              2 réitérations</a>
+          </div>
+          <div class="alert alert-success" role="alert">
+            <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+            Acquitté</div>
+        </div>
+        <div class="col-md-6">
+          <div class="well well-lg">
 
-          <p><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Date de rétablissement prévue : <span class="digital_orange_color">le 01 mars 2016</span> </p>
-          <p>A l'adresse : 51 avenue Kennedy 31330 Grenade</p>
-          <p>Date de rétablissement initale : le 18 mai 2016</p>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="alert alert-danger" role="alert"><a href="#" class="alert-link"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2 jours de retard</a></div>
-        <div class="alert alert-success" role="alert"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Dossier piloté</div>
-      </div>
-    </div>
-    <!-- row-rdv -->
-    <br>
-    <!-- a virer, gérer le padding -->
-    <div id="row-actions" class="row">
-      <div id="col-actions" class="col-md-8">
-        <ul class="nav nav-tabs">
-          <li class="active"><a data-toggle="tab" href="#last"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> Dernière intéraction</a></li>
-          <li><a data-toggle="tab" href="#action"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Action à venir</a></li>
-        </ul>
-        <div class="tab-content">
-          <div id="last" class="tab-pane fade in active">
-            <p>Interaction : <span class="digital_orange_color">3900 SVI</span></p>
-            <p>Type de demande : <span class="digital_orange_color">Dépannage</span></p>
-            <p>Services en défaut : internet
-              <input type="checkbox" value="" checked="checked" disabled> TV
-              <input type="checkbox" value="" checked="checked" disabled> VOIP
-              <input type="checkbox" value="" checked="checked" disabled>
+            <p>
+              <span class="glyphicon glyphicon-tasks" aria-hidden="true"></span>
+              Date de rétablissement prévue :
+              <span class="digital_orange_color">le 01 mars 2016</span>
             </p>
-            <p>Symptômes : <span class="digital_orange_color">Box ne s'allume plus</span></p>
-            <p>Evènement récent : </p>
-            <p>Information complémentaire : </p>
-          </div>
-          <div id="action" class="tab-pane fade">
-            <table class="table table-hover table-condensed">
-              <!-- <caption>Interaction/action</caption> -->
-              <thead>
-                <tr>
-                  <th>Date</th>
-                  <th>Acteur</th>
-                  <th>description</th>
-                  <th>RDV</th>
-                  <th>Cout</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="warning">
-                  <td>12 FEV 2016</td>
-                  <td>Orange</td>
-                  <td>descritption de l'action à venir</td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr class="success">
-                  <td>10 FEV 2016</td>
-                  <td>Orange</td>
-                  <td>descritption de l'action à venir</td>
-                  <td>
-                    <input type="checkbox" value="" disabled>
-                  </td>
-                  <td>69€</td>
-                </tr>
-                <tr class="info">
-                  <td>8 FEV 2016</td>
-                  <td>Orange</td>
-                  <td>descritption de l'action à venir</td>
-                  <td>
-                    <input type="checkbox" value="" disabled>
-                  </td>
-                  <td>19€</td>
-                </tr>
-                <tr class="info">
-                  <td>5 FEV 2016</td>
-                  <td>Orange</td>
-                  <td>descritption de l'action à venir</td>
-                  <td>
-                    <input type="checkbox" value="">
-                  </td>
-                  <td>89€</td>
-                </tr>
-              </tbody>
-            </table>
+            <p>A l'adresse : 51 avenue Kennedy 31330 Grenade</p>
+            <p>Date de rétablissement initale : le 18 mai 2016</p>
           </div>
         </div>
+        <div class="col-md-3">
+          <div class="alert alert-danger" role="alert">
+            <a href="#" class="alert-link">
+              <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+              2 jours de retard</a>
+          </div>
+          <div class="alert alert-success" role="alert">
+            <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+            Dossier piloté</div>
+        </div>
       </div>
-      <!-- col-actions -->
-      <div id="col-info_client" class="col-md-4">
-        <ul class="nav nav-tabs">
-          <li class="active"><a data-toggle="tab" href="#client"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Client</a></li>
-          <li><a data-toggle="tab" href="#adresse"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Adresse</a></li>
-          <li><a data-toggle="tab" href="#offre"><span class="glyphicon glyphicon-euro" aria-hidden="true"></span> Offre</a></li>
-          <li></li>
-        </ul>
-        <div id="client" class="tab-pane fade in active">
-          <h4>Charles MARTEL</h4>
-          <blockquote>
-            <h6 class="digital_orange_color">REF : </h6>
-            <h6>Segment de marché : <strong>Résidentiel</strong></h6>
-            <h6>N° client : <strong>0228640151</strong></h6>
-            <h6>Compte client Orange : <strong>718461424</strong></h6>
-          </blockquote>
-          <blockquote>
-            <h6 class="digital_orange_color">CONTACT : </h6>
-            <h6>
-                  <span class="glyphicon glyphicon-phone digital_orange_color" aria-hidden="true">
-                  </span> <strong>06 12 36 08 66   </strong>
+      <!-- row-rdv -->
+      <br>
+      <!-- a virer, gérer le padding -->
+      <div id="row-actions" class="row">
+        <div id="col-actions" class="col-md-8">
+          <ul class="nav nav-tabs">
+            <li class="active">
+              <a data-toggle="tab" href="#last">
+                <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
+                Dernière intéraction</a>
+            </li>
+            <li>
+              <a data-toggle="tab" href="#action">
+                <span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>
+                Action à venir</a>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div id="last" class="tab-pane fade in active">
+              <p>Interaction :
+                <span class="digital_orange_color">3900 SVI</span>
+              </p>
+              <p>Type de demande :
+                <span class="digital_orange_color">Dépannage</span>
+              </p>
+              <p>Services en défaut : internet
+                <input type="checkbox" value="" checked="checked" disabled>
+                TV
+                <input type="checkbox" value="" checked="checked" disabled>
+                VOIP
+                <input type="checkbox" value="" checked="checked" disabled>
+              </p>
+              <p>Symptômes :
+                <span class="digital_orange_color">Box ne s'allume plus</span>
+              </p>
+              <p>Evènement récent :
+              </p>
+              <p>Information complémentaire :
+              </p>
+            </div>
+            <div id="action" class="tab-pane fade">
+              <table class="table table-hover table-condensed">
+                <!-- <caption>Interaction/action</caption> -->
+                <thead>
+                  <tr>
+                    <th>Date</th>
+                    <th>Acteur</th>
+                    <th>description</th>
+                    <th>RDV</th>
+                    <th>Cout</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="warning">
+                    <td>12 FEV 2016</td>
+                    <td>Orange</td>
+                    <td>descritption de l'action à venir</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr class="success">
+                    <td>10 FEV 2016</td>
+                    <td>Orange</td>
+                    <td>descritption de l'action à venir</td>
+                    <td>
+                      <input type="checkbox" value="" disabled>
+                    </td>
+                    <td>69€</td>
+                  </tr>
+                  <tr class="info">
+                    <td>8 FEV 2016</td>
+                    <td>Orange</td>
+                    <td>descritption de l'action à venir</td>
+                    <td>
+                      <input type="checkbox" value="" disabled>
+                    </td>
+                    <td>19€</td>
+                  </tr>
+                  <tr class="info">
+                    <td>5 FEV 2016</td>
+                    <td>Orange</td>
+                    <td>descritption de l'action à venir</td>
+                    <td>
+                      <input type="checkbox" value="">
+                    </td>
+                    <td>89€</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <!-- col-actions -->
+        <div id="col-info_client" class="col-md-4">
+          <ul class="nav nav-tabs">
+            <li class="active">
+              <a data-toggle="tab" href="#client">
+                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                Client</a>
+            </li>
+            <li>
+              <a data-toggle="tab" href="#adresse">
+                <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                Adresse</a>
+            </li>
+            <li>
+              <a data-toggle="tab" href="#offre">
+                <span class="glyphicon glyphicon-euro" aria-hidden="true"></span>
+                Offre</a>
+            </li>
+            <li></li>
+          </ul>
+          <div class="tab-content">
+            <div id="client" class="tab-pane fade in active">
+              <h4>Charles MARTEL</h4>
+              <blockquote>
+                <h6 class="digital_orange_color">REF :
+                </h6>
+                <h6>Segment de marché :
+                  <strong>Résidentiel</strong>
+                </h6>
+                <h6>N° client :
+                  <strong>0228640151</strong>
+                </h6>
+                <h6>Compte client Orange :
+                  <strong>718461424</strong>
+                </h6>
+              </blockquote>
+              <blockquote>
+                <h6 class="digital_orange_color">CONTACT :
+                </h6>
+                <h6>
+                  <span class="glyphicon glyphicon-phone digital_orange_color" aria-hidden="true"></span>
+                  <strong>06 12 36 08 66
+                  </strong>
                   <button type="button" class="btn">Modification</button>
                 </h6>
-            <h6>
+                <h6>
                   <span class="glyphicon glyphicon-envelope digital_orange_color" aria-hidden="true"></span>
                   <strong>Non communiqué</strong>
                   <span class="glyphicon glyphicon-warning-sign digital_orange_color" aria-hidden="true"></span>
                 </h6>
-            <p></p>
-          </blockquote>
+                <p></p>
+              </blockquote>
+            </div>
+            <div id="adresse" class="tab-pane fade">
+              <h3>adresse</h3>
+            </div>
+            <div id="offre" class="tab-pane fade">
+              <h3>Offre</h3>
+            </div>
+          </div>
         </div>
-        <div id="adresse" class="tab-pane fade">
-          <h3>adresse</h3>
-        </div>
-        <div id="offre" class="tab-pane fade">
-          <h3>Offre</h3>
-        </div>
+        <!-- col-info_client -->
       </div>
-    </div>
-    <!-- col-info_client -->
-  </div>
-  <!-- row-actions -->
+      <!-- row-actions -->
 
-  <br>
-  <!-- a virer, gérer le padding -->
-  <div id="row-historique" class="row">
-    <div id="col-historique" class="col-md-12">
-      <ul class="nav nav-tabs">
-        <li class="active"><a data-toggle="tab" href="#historique-interactions"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Historique des interactions</a></li>
-        <li><a data-toggle="tab" href="#historique-actions"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Historiques des actions</a></li>
-        <li><a data-toggle="tab" href="#historique-acquittement"><span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span> Acquittement</a></li>
-      </ul>
-      <div class="tab-content">
-        <div id="historique-interactions" class="tab-pane fade in active">
-          <table class="table table-hover table-condensed">
-            <!-- <caption>Interaction/action</caption> -->
-            <thead>
-              <tr>
-                <th>Date</th>
-                <th>Origine</th>
-                <th>Type de contact</th>
-                <th>Etat</th>
-                <th>Nature</th>
-                <th>Actions / communications</th>
-                <th>date prévisionnelle</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr class="info">
-                <td>12 FEV 2016</td>
-                <td>Orange</td>
-                <td>SMS</td>
-                <td>OK</td>
-                <td>Information</td>
-                <td>SMS d'information sur le cout de déplacement</td>
-                <td></td>
-              </tr>
-              <tr class="info">
-                <td>10 FEV 2016</td>
-                <td>Orange</td>
-                <td>SMS</td>
-                <td>OK</td>
-                <td>Aléas</td>
-                <td>SMS informatn d'un retard</td>
-                <td>...</td>
-              </tr>
-              <tr class="info">
-                <td>9 FEV 2016</td>
-                <td>Orange</td>
-                <td>TEL</td>
-                <td>Client joint</td>
-                <td>Diagnostic approfondi</td>
-                <td>Intervention sur le réseau</td>
-                <td>...</td>
-              </tr>
-            </tbody>
-          </table>
+      <br>
+      <!-- a virer, gérer le padding -->
+      <div id="row-historique" class="row">
+        <div id="col-historique" class="col-md-12">
+          <ul class="nav nav-tabs">
+            <li class="active">
+              <a data-toggle="tab" href="#historique-interactions">
+                <span class="glyphicon glyphicon-tasks" aria-hidden="true"></span>
+                Historique des interactions</a>
+            </li>
+            <li>
+              <a data-toggle="tab" href="#historique-acquittement">
+                <span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>
+                Acquittement</a>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div id="historique-interactions" class="tab-pane fade in active">
+              <table class="table table-hover table-condensed">
+                <!-- <caption>Interaction/action</caption> -->
+                <thead>
+                  <tr>
+                    <th>Date</th>
+                    <th>Origine</th>
+                    <th>Type de contact</th>
+                    <th>Etat</th>
+                    <th>Nature</th>
+                    <th>Actions / communications</th>
+                    <th>date prévisionnelle</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="info">
+                    <td>12 FEV 2016</td>
+                    <td>Orange</td>
+                    <td>SMS</td>
+                    <td>OK</td>
+                    <td>Information</td>
+                    <td>SMS d'information sur le cout de déplacement</td>
+                    <td></td>
+                  </tr>
+                  <tr class="info">
+                    <td>10 FEV 2016</td>
+                    <td>Orange</td>
+                    <td>SMS</td>
+                    <td>OK</td>
+                    <td>Aléas</td>
+                    <td>SMS informatn d'un retard</td>
+                    <td>...</td>
+                  </tr>
+                  <tr class="info">
+                    <td>9 FEV 2016</td>
+                    <td>Orange</td>
+                    <td>TEL</td>
+                    <td>Client joint</td>
+                    <td>Diagnostic approfondi</td>
+                    <td>Intervention sur le réseau</td>
+                    <td>...</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="historique-acquittement" class="tab-pane fade">
+              acquittements
+            </div>
+          </div>
         </div>
-        <div id="historique-actions" class="tab-pane fade">
-          <table class="table table-hover table-condensed">
-            <!-- <caption>Interaction/action</caption> -->
-            <thead>
-              <tr>
-                <th>Date</th>
-                <th>Acteur</th>
-                <th>Etat</th>
-                <th>Nature</th>
-                <th>Compte rendu</th>
-                <th>Vérifications de bon fonctionnement</th>
-                <th>Suite à donner</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr class="info">
-                <td>12 FEV 2016</td>
-                <td>Orange</td>
-                <td>Réalisée</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr class="info">
-                <td>10 FEV 2016</td>
-                <td>Orange</td>
-                <td>Reportée</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>...</td>
-              </tr>
-              <tr class="info">
-                <td>9 FEV 2016</td>
-                <td>Orange</td>
-                <td>Annulée</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>...</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div id="historique-acquittement" class="tab-pane fade">
-          acquittements
-        </div>
+        <!-- col-historique -->
       </div>
+      <!-- row-historique -->
+
     </div>
-    <!-- col-historique -->
-  </div>
-  <!-- row-historique -->
+    <!-- container assistance -->
 
+    <!-- Site footer -->
+    <div class="footer">
+      <p>© Orange 2016</p>
+    </div>
+    <!-- /container -->
 
-
-  </div>
-  <!-- container assistance -->
-
-  <!-- Site footer -->
-  <div class="footer">
-    <p>© Orange 2016</p>
-  </div>
-  <!-- /container -->
-
-  <!-- Bootstrap core JavaScript
+    <!-- Bootstrap core JavaScript
           ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
-</body>
+  </body>
 
 </html>
