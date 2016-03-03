@@ -13,3 +13,25 @@ font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 .digital_orange_color {
   color : #FF7900;
 }
+
+button {
+  background-color : #FF7900;
+  color : white;
+}
+
+button:hover {
+  background-color: #000000;
+  color : white;
+}
+
+a {
+  color : #444444;
+}
+
+a:hover{
+    color : #FF7900;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  color : #FF7900;
+}
