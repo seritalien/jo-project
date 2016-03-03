@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -33,7 +34,8 @@
   <!-- header -->
   <div class="container">
     <div class="masthead">
-      <nav role="navigation" class="navbar  navbar-default "> <!-- navbar-fixed-top -->
+      <nav role="navigation" class="navbar  navbar-default ">
+        <!-- navbar-fixed-top -->
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -50,239 +52,258 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 
-              <p class="navbar-text navbar-right">Bonjour <a href="#" class="navbar-link">Henry DUPONT</a></p>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-        </nav>
-
-
-      </div > <!-- masterhead -->
-    </div> <!-- header -->
-
-    <!-- container dossier d'assistance spécifique -->
-    <div id="assitance" class="container">
-      <!-- message temporaire pour la demo maquette -->
-      <div id="message" class="">
-        <i class="fa fa-star"></i>
-        <div style="" class="alert alert-success">
-          <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-          <strong>CAS N°3 FILTRAGE - Intervention annulée par Orange</strong> - Vue client
+            <p class="navbar-text navbar-right">Bonjour <a href="#" class="navbar-link">Henry DUPONT</a></p>
+          </div>
+          <!-- /.navbar-collapse -->
         </div>
-      </div>
-      <!-- bare de navigation -->
-      <ol class="breadcrumb">
-        <li><a href="#">Accueil</a></li>
-        <li><a href="#">Mon Espace</a></li>
-        <li><a href="#">Assistance</a></li>
-        <li class="active">N°123452</li>
-      </ol>
+        <!-- /.container-fluid -->
+      </nav>
 
-      <h3 class="text-center">
+
+    </div>
+    <!-- masterhead -->
+  </div>
+  <!-- header -->
+
+  <!-- container dossier d'assistance spécifique -->
+  <div id="assitance" class="container">
+    <!-- message temporaire pour la demo maquette -->
+    <div id="message" class="">
+      <i class="fa fa-star"></i>
+      <div style="" class="alert alert-success">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+        <strong>CAS N°3 FILTRAGE - Intervention annulée par Orange</strong> - Vue client
+      </div>
+    </div>
+    <!-- bare de navigation -->
+    <ol class="breadcrumb">
+      <li><a href="#">Accueil</a></li>
+      <li><a href="#">Mon Espace</a></li>
+      <li><a href="#">Assistance</a></li>
+      <li class="active">N°123452</li>
+    </ol>
+
+    <h3 class="text-center">
         <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>   Dossier d'assistance N°123452 crée le 16 fevrier 2016
 
         <div class="btn-group" role="group" aria-label="...">
-            <button type="button" class="btn btn-default active"><a href="123452_client.html#"><span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span> Client</a></button>
-            <button type="button" class="btn btn-default"><a href="123452_tech.html#"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Orange</a></button>
+          <a class="btn btn-default active" href="123452_client.html" role="button"><span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span> Client</a>
+          <a class="btn btn-default" href="123452_tech.html" role="button"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Orange</a>
         </div>
 
         <i class="fa fa-archive"></i>
       </h3>
-      <br> <!-- a virer, gérer le padding -->
-      <div id="row-rdv" class="row">
-        <div class="col-md-3">
-          <div class="alert alert-warning" role="alert"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> En cours</div>
-        </div>
-        <div class="col-md-6">
-          <div class="well well-lg">
+    <br>
+    <!-- a virer, gérer le padding -->
+    <div id="row-rdv" class="row">
+      <div class="col-md-3">
+        <div class="alert alert-warning" role="alert"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> En cours</div>
+      </div>
+      <div class="col-md-6">
+        <div class="well well-lg">
 
-            <p><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span>  Rétablissement prévu : le 17 février 2016</p>
-            <p>Date de rétablissement initale : le 18 février 2016</p>
+          <p><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Rétablissement prévu : le 17 février 2016</p>
+          <p>Date de rétablissement initale : le 18 février 2016</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="alert alert-success" role="alert"><a href="#" class="alert-link"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> Nominal</a></div>
+      </div>
+    </div>
+    <!-- row-rdv -->
+    <br>
+    <!-- a virer, gérer le padding -->
+    <div id="row-actions" class="row">
+      <div id="col-actions" class="col-md-8">
+        <ul class="nav nav-tabs">
+          <li class="active"><a data-toggle="tab" href="#last"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> Dernière intéraction</a></li>
+          <li><a data-toggle="tab" href="#action"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Action à venir</a></li>
+        </ul>
+        <div class="tab-content">
+          <div id="last" class="tab-pane fade in active">
+            <p>Date : 16 Fev 2016 Heure : 10h20</p>
+            <p>Interaction : E-chat</p>
+            <p>Type de demande : Dépannage</p>
+            <p>Services en défaut : internet
+              <input type="checkbox" checked="" value="" disabled> TV
+              <input type="checkbox" value="" checked="" disabled> VOIP
+              <input type="checkbox" value="" checked="" disabled>
+            </p>
+            <p>Symptômes : pas de syncro ADSL</p>
+            <p>Evènement récent : Orage sur la commune dans la nuit</p>
+            <p>Information complémentaire</p>
+          </div>
+          <div id="action" class="tab-pane fade">
+            <table class="table table-hover table-condensed">
+              <!-- <caption>Interaction/action</caption> -->
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Acteur</th>
+                  <th>description</th>
+                  <th>RDV</th>
+                  <th>Cout</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="info">
+                  <td></td>
+                  <td>Client</td>
+                  <td>Acquittement pour clôture du dossier</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="alert alert-success" role="alert"><a href="#" class="alert-link"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> Nominal</a></div>
-        </div>
-      </div> <!-- row-rdv -->
-      <br> <!-- a virer, gérer le padding -->
-      <div id="row-actions" class="row">
-        <div id="col-actions" class="col-md-8">
-          <ul class="nav nav-tabs">
-            <li class="active"><a data-toggle="tab" href="#last"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> Dernière intéraction</a></li>
-            <li><a data-toggle="tab" href="#action"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Action à venir</a></li>
-          </ul>
-          <div class="tab-content">
-            <div id="last" class="tab-pane fade in active">
-              <h3>Derniere interaction</h3>
-              <p>Date : 16 Fev 2016                Heure : 10h20</p>
-              <p>Interaction : E-chat</p>
-              <p>Type de demande : Dépannage</p>
-              <p>Services en défaut : internet <input type="checkbox" checked="" value="" disabled> TV <input type="checkbox" value="" checked="" disabled> VOIP <input type="checkbox" value="" checked="" disabled></p>
-              <p>Symptômes : pas de syncro ADSL</p>
-              <p>Evènement récent : Orage sur la commune dans la nuit</p>
-              <p>Information complémentaire</p>
-            </div>
-            <div id="action" class="tab-pane fade">
-              <h3>Actions à venir</h3>
-              <table class="table table-hover table-condensed">
-                <caption>Interaction/action</caption>
-                <thead>
-                  <tr>
-                    <th>Date</th>
-                    <th>Acteur</th>
-                    <th>description</th>
-                    <th>RDV</th>
-                    <th>Cout</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr class="info">
-                    <td></td>
-                    <td>Client</td>
-                    <td>Acquittement pour clôture du dossier</td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                </tbody></table>
-              </div>
-            </div>
-          </div> <!-- col-actions -->
-          <br/>
-          <div id="col-info_client" class="col-md-4">
-            <ul class="nav nav-tabs">
-              <li class="active"><a data-toggle="tab" href="#client"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Client</a></li>
-              <li><a data-toggle="tab" href="#adresse"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Adresse</a></li>
-              <li><a data-toggle="tab" href="#offre"><span class="glyphicon glyphicon-euro" aria-hidden="true"></span> Offre</a></li>
-              <li></li>
-            </ul>
-            <div class="tab-content">
-              <div id="client" class="tab-pane fade in active">
-                <h4>Charles MARTEL</h4>
-                <blockquote>
-                  <h6 class="digital_orange_color">REF : </h6>
-                  <h6>Segment de marché : <strong>Résidentiel</strong></h6>
-                  <h6>N° client : <strong>0228640151</strong></h6>
-                  <h6>Compte client Orange : <strong>718461424</strong></h6>
-                </blockquote>
-                <blockquote>
-                  <h6 class="digital_orange_color">CONTACT : </h6>
-                  <h6>
+      </div>
+      <!-- col-actions -->
+      <br/>
+      <div id="col-info_client" class="col-md-4">
+        <ul class="nav nav-tabs">
+          <li class="active"><a data-toggle="tab" href="#client"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Client</a></li>
+          <li><a data-toggle="tab" href="#adresse"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Adresse</a></li>
+          <li><a data-toggle="tab" href="#offre"><span class="glyphicon glyphicon-euro" aria-hidden="true"></span> Offre</a></li>
+          <li></li>
+        </ul>
+        <div class="tab-content">
+          <div id="client" class="tab-pane fade in active">
+            <h4>Charles MARTEL</h4>
+            <blockquote>
+              <h6 class="digital_orange_color">REF : </h6>
+              <h6>Segment de marché : <strong>Résidentiel</strong></h6>
+              <h6>N° client : <strong>0228640151</strong></h6>
+              <h6>Compte client Orange : <strong>718461424</strong></h6>
+            </blockquote>
+            <blockquote>
+              <h6 class="digital_orange_color">CONTACT : </h6>
+              <h6>
                     <span class="glyphicon glyphicon-phone digital_orange_color" aria-hidden="true">
                     </span> <strong>06 12 36 08 66   </strong>
                     <button type="button" class="btn">Modification</button>
                   </h6>
-                  <h6>
+              <h6>
                     <span class="glyphicon glyphicon-envelope digital_orange_color" aria-hidden="true"></span>
                     <strong>Non communiqué</strong>
                     <span class="glyphicon glyphicon-warning-sign digital_orange_color" aria-hidden="true"></span>
                   </h6>
-                  <p></p>
-                </blockquote>
-              </div>
-              <div id="adresse" class="tab-pane fade">
-                <h3>Adresse</h3>
-              </div>
-              <div id="offre" class="tab-pane fade">
-                <h3>Offre</h3>
-              </div>
-            </div>
-          </div> <!-- col-info_client -->
-        </div> <!-- row-actions -->
-
-        <h2>Avancement du dossier : <strong>en cours</strong></h2>
-
-        <br> <!-- a virer, gérer le padding -->
-        <div id="row-historique" class="row">
-          <div id="col-historique" class="col-md-12">
-            <ul class="nav nav-tabs">
-              <li class="active"><a data-toggle="tab" href="#historique-interactions"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Historique des interactions</a></li>
-              <li><a data-toggle="tab" href="#historique-acquittement"><span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span> Acquittement</a></li>
-            </ul>
-            <div class="tab-content">
-              <div id="historique-interactions" class="tab-pane fade in active">
-                <h3>Historique des interactions</h3>
-                <caption>Interaction/action</caption>
-                <table class="table table-hover table-condensed">
-                  <thead>
-                    <tr>
-                      <th>Date</th>
-                      <th>Origine</th>
-                      <th>Type de contact</th>
-                      <th>Etat</th>
-                      <th>Nature</th>
-                      <th>Actions / communications</th>
-                      <th>date prévisionnelle</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr class="info">
-                      <td>17 Fev 2016</td>
-                      <td>Orange</td>
-                      <td>SMS</td>
-                      <td>OK</td>
-                      <td>Changement Box</td>
-                      <td>Bon d’échange de Livebox en boutique</td>
-                      <td></td>
-                    </tr>
-                    <tr class="info">
-                      <td>17 Fev 2016</td>
-                      <td>Orange</td>
-                      <td>Tel</td>
-                      <td>OK</td>
-                      <td>Filtrage</td>
-                      <td>Annulation de l’intervention prévue - Détection de Livebox foudroyée</td>
-                      <td></td>
-                    </tr>
-                    <tr class="info">
-                      <td>16 Fev 2016</td>
-                      <td>Orange</td>
-                      <td>SMS</td>
-                      <td>OK</td>
-                      <td>Information</td>
-                      <td>SMS d’information sur le cout du déplacement</td>
-                      <td></td>
-                    </tr>
-                    <tr class="info">
-                      <td>16 Fev 2016</td>
-                      <td>Orange</td>
-                      <td>SMS</td>
-                      <td>OK</td>
-                      <td>Information</td>
-                      <td>SMS d’information sur le suivi on line des incidents</td>
-                      <td></td>
-                    </tr>
-                    <tr class="info">
-                      <td>16 Fev 2016</td>
-                      <td>Client</td>
-                      <td>3900</td>
-                      <td>OK</td>
-                      <td>Panne</td>
-                      <td>Prise en charge initiale</td>
-                      <td>18 Fev 2016</td>
-                    </tr>
-                  </tbody></table>
-                </div>
-
-                  <div id="historique-acquittement" class="tab-pane fade">
-                    Acquittements
-                  </div>
-                </div>
-              </div> <!-- col-historique -->
-            </div> <!-- row-historique -->
-
-
-
-          </div> <!-- container assistance -->
-
-          <!-- Site footer -->
-          <div class="footer">
-            <p>© Orange 2016</p>
+              <p></p>
+            </blockquote>
           </div>
-          <!-- /container -->
+          <div id="adresse" class="tab-pane fade">
+            <h3>Adresse</h3>
+          </div>
+          <div id="offre" class="tab-pane fade">
+            <h3>Offre</h3>
+          </div>
+        </div>
+      </div>
+      <!-- col-info_client -->
+    </div>
+    <!-- row-actions -->
 
-          <!-- Bootstrap core JavaScript
+    <h2>Avancement du dossier : <strong>en cours</strong></h2>
+
+    <br>
+    <!-- a virer, gérer le padding -->
+    <div id="row-historique" class="row">
+      <div id="col-historique" class="col-md-12">
+        <ul class="nav nav-tabs">
+          <li class="active"><a data-toggle="tab" href="#historique-interactions"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Historique des interactions</a></li>
+          <li><a data-toggle="tab" href="#historique-acquittement"><span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span> Acquittement</a></li>
+        </ul>
+        <div class="tab-content">
+          <div id="historique-interactions" class="tab-pane fade in active">
+            <!-- <caption>Interaction/action</caption> -->
+            <table class="table table-hover table-condensed">
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Origine</th>
+                  <th>Type de contact</th>
+                  <th>Etat</th>
+                  <th>Nature</th>
+                  <th>Actions / communications</th>
+                  <th>date prévisionnelle</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="info">
+                  <td>17 Fev 2016</td>
+                  <td>Orange</td>
+                  <td>SMS</td>
+                  <td>OK</td>
+                  <td>Changement Box</td>
+                  <td>Bon d’échange de Livebox en boutique</td>
+                  <td></td>
+                </tr>
+                <tr class="info">
+                  <td>17 Fev 2016</td>
+                  <td>Orange</td>
+                  <td>Tel</td>
+                  <td>OK</td>
+                  <td>Filtrage</td>
+                  <td>Annulation de l’intervention prévue - Détection de Livebox foudroyée</td>
+                  <td></td>
+                </tr>
+                <tr class="info">
+                  <td>16 Fev 2016</td>
+                  <td>Orange</td>
+                  <td>SMS</td>
+                  <td>OK</td>
+                  <td>Information</td>
+                  <td>SMS d’information sur le cout du déplacement</td>
+                  <td></td>
+                </tr>
+                <tr class="info">
+                  <td>16 Fev 2016</td>
+                  <td>Orange</td>
+                  <td>SMS</td>
+                  <td>OK</td>
+                  <td>Information</td>
+                  <td>SMS d’information sur le suivi on line des incidents</td>
+                  <td></td>
+                </tr>
+                <tr class="info">
+                  <td>16 Fev 2016</td>
+                  <td>Client</td>
+                  <td>3900</td>
+                  <td>OK</td>
+                  <td>Panne</td>
+                  <td>Prise en charge initiale</td>
+                  <td>18 Fev 2016</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div id="historique-acquittement" class="tab-pane fade">
+            Acquittements
+          </div>
+        </div>
+      </div>
+      <!-- col-historique -->
+    </div>
+    <!-- row-historique -->
+
+
+
+  </div>
+  <!-- container assistance -->
+
+  <!-- Site footer -->
+  <div class="footer">
+    <p>© Orange 2016</p>
+  </div>
+  <!-- /container -->
+
+  <!-- Bootstrap core JavaScript
           ================================================== -->
-          <!-- Placed at the end of the document so the pages load faster -->
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-        </body></html>
+</body>
+
+</html>
